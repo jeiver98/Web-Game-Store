@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <title>Juegos de Aventura</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="icon" type="image/png" href="img/Aventura.jpeg">
+  <style>
+    html, body { margin: 0; padding: 0; height: 100%; }
+    body {
+      background-image: url('img/Aventura.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: -1;
+    }
+    .titulo h1, p.lead, .container ul li, .container p {
+      color: white;
+      text-shadow: 2px 2px 5px black;
+    }
+    .card { width: 200px; height: 400px; }
+    .card-img-top { width: 100%; height: 200px; object-fit: cover; }
+    .col { margin-bottom: 2rem; }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Inicio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" href="quienes somos.html">Quienes somos</a>
+        <a class="nav-link active" href="videojuegos.html">Videojuegos</a>
+        <a class="nav-link active" href="contactenos.html">Contactenos</a>
+        <a class="nav-link active" href="reseña.html">Reseñas</a>
+        <a class="nav-link active" href="noticias gamers.html">Noticias gamers</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="text-center">
+  <h1>Catálogo de Juegos de Aventura</h1>
+  <p>Aquí encontrarás las mejores aventuras, explorando mundos increíbles y resolviendo misterios emocionantes.</p>
+</div>
+<div class="container text-center">
+  <div class="row g-4">
+    <!-- Fila 1 -->
+    <div class="col-md-3">
+      <div class="card h-100">
+        <img src="img/zela.jpg" class="card-img-top" alt="The Legend of Zelda">
+        <div class="card-body">
+          <h5 class="card-title">The Legend of Zelda</h5>
+          <a href="" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card h-100">
+        <img src="img/jor.jpg" class="card-img-top" alt="Journey">
+        <div class="card-body">
+          <h5 class="card-title">Journey</h5>
+          <a href="" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card h-100">
+        <img src="img/life.jpg" class="card-img-top" alt="Life is Strange">
+        <div class="card-body">
+          <h5 class="card-title">Life is Strange</h5>
+          <a href="" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card h-100">
+        <img src="img/gris.jpg" class="card-img-top" alt="Gris">
+        <div class="card-body">
+          <h5 class="card-title">Gris</h5>
+          <a href="" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row g-4 mt-2">
+    <!-- Fila 2 -->
+    <div class="col-md-3">
+      <div class="card h-100">
+        <img src="img/fire.jpg" class="card-img-top" alt="Firewatch">
+        <div class="card-body">
+          <h5 class="card-title">Firewatch</h5>
+          <a href="" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card h-100">
+        <img src="img/unravel.jpg" class="card-img-top" alt="Unravel">
+        <div class="card-body">
+          <h5 class="card-title">Unravel</h5>
+          <a href="" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card h-100">
+        <img src="img/ori.jpg" class="card-img-top" alt="Ori and the Blind Forest">
+        <div class="card-body">
+          <h5 class="card-title">Ori and the Blind Forest</h5>
+          <a href="" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card h-100">
+        <img src="img/monkey.jpg" class="card-img-top" alt="Monkey Island">
+        <div class="card-body">
+          <h5 class="card-title">Monkey Island</h5>
+          <a href="" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

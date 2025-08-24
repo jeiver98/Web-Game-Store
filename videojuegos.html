@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es"data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <title>Videojuegos</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="icon" type="image/png" href="img/descarga.jpeg">
+  <style>
+        html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      background-image: url('img/videojuegos.jpeg'); 
+      background-size: cover;                
+      background-position: center;           
+      background-repeat: no-repeat;          
+      background-attachment: fixed;          
+    }
+     body::before {
+      content: "";
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: -1;
+    }
+
+    .titulo h1,
+    p.lead,
+    .container ul li,
+    .container p {
+      color: white;
+      text-shadow: 2px 2px 5px black;
+    
+    }
+
+  .card {
+    width: 300px;
+    height: 400px;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .col {
+  margin-bottom: 2rem; 
+}
+
+  </style>
+  
+</head>
+<body>
+ 
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Inicio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="quienes somos.html">Quienes somos</a>
+          <a class="nav-link active"aria-current="page" href="videojuegos.html">Videojuegos</a>
+          <a class="nav-link active "aria-current="page" href="contactenos.html">Contactenos</a>
+          <a class="nav-link active"aria-current="page" href="reseña.html">Reseñas</a>
+          <a class="nav-link active"aria-current="page" href="noticias gamers.html">Noticias gamers</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="text-center" >
+    <h1>Catalogo De Videojuegos</h1>
+</div>
+    
+
+  <div class="container text-center">
+  <div class="row align-items-start">
+    <div class="col">
+      <div class="card">
+        <img src="img/terror.jpg" class="card-img-top" alt="terror">
+        <div class="card-body">
+          <h5 class="card-title">Terror</h5>
+          <p class="card-text">Aquí encontrarás los mejores videojuegos de terror, llenos de misterio, suspenso y sustos que pondrán a prueba tu valentía.</p>
+          <a href="terror.html" class="btn btn-primary">Juegos Disponibles</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="img/Accion.avif" class="card-img-top" alt="Accion">
+        <div class="card-body">
+          <h5 class="card-title">Accion</h5>
+          <p class="card-text">Aquí encontrarás los mejores videojuegos de acción, con combates intensos, misiones desafiantes y pura adrenalina.
+
+</p>
+          <a href="Accion.html" class="btn btn-primary">Juegos Disponibles</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+       <div class="card">
+        <img src="img/shooter.avif" class="card-img-top" alt="shooter">
+        <div class="card-body">
+          <h5 class="card-title">Shooter</h5>
+          <p class="card-text">Aquí encontrarás los mejores videojuegos shooter, donde la puntería y la estrategia son la clave para la victoria.</p>
+          <a href="shooter.html" class="btn btn-primary">Juegos Disponibles</a>
+        </div>
+      
+     
+    </div>
+  </div>
+</div>
+ <div class="container text-center">
+  <div class="row align-items-start ">
+    <div class="col">
+      <div class="card">
+        <img src="img/Aventura.jpeg" class="card-img-top" alt="Aventura">
+        <div class="card-body">
+          <h5 class="card-title">Aventura</h5>
+          <p class="card-text">Aquí encontrarás las mejores aventuras, explorando mundos increíbles y resolviendo misterios emocionantes.</p>
+          <a href="Aventura.html" class="btn btn-primary">Juegos Disponibles</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="img/Carreras.png" class="card-img-top" alt="Carreras">
+        <div class="card-body">
+          <h5 class="card-title">Carreras</h5>
+          <p class="card-text">Aquí encontrarás los mejores videojuegos de carreras, llenos de velocidad, curvas imposibles y competencias emocionantes.</p>
+          <a href="carreras.html" class="btn btn-primary">Juegos Disponibles</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+       <div class="card">
+        <img src="img/rpg.png" class="card-img-top" alt="RPG">
+        <div class="card-body">
+          <h5 class="card-title">Rpg</h5>
+          <p class="card-text">Aquí encontrarás los mejores juegos RPG, donde podrás crear tu héroe, mejorar habilidades y vivir historias épicas.</p>
+          <a href="rpg.html" class="btn btn-primary">Juegos Disponibles</a>
+      </div>
+    </div>
+
+
+ 
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

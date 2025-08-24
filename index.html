@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <title>Tienda de videojuegos</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="icon" type="image/png" href="img/descarga.jpeg">
+   <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      background-image: url('img/videojuegos.jpeg'); 
+      background-size: cover;                
+      background-position: center;           
+      background-repeat: no-repeat;          
+      background-attachment: fixed;          
+    }
+     body::before {
+      content: "";
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: -1;
+    }
+
+    .titulo h1,
+    p.lead,
+    .container ul li,
+    .container p {
+      color: white;
+      text-shadow: 2px 2px 5px black;
+    
+    }
+
+    .carousel-item img {
+    height: 400px; 
+    object-fit: cover;
+  }
+  </style>
+</head>
+<body>
+  
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="inicio.html">Inicio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="quienes somos.html">Quienes somos</a>
+          <a class="nav-link active" aria-current="page" href="videojuegos.html">Videojuegos</a>
+          <a class="nav-link active" aria-current="page" href="contactenos.html">Contactenos</a>
+          <a class="nav-link active"  aria-current="page" href="reseña.html">Reseñas</a>
+          <a class="nav-link active" aria-current="page" href="noticias gamers.html">Noticias gamers</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  
+   <div class="text-center" >
+    <h1>Tienda de Videojuegos</h1>
+</div>
+
+
+<div class="container text-center my-4">
+  <p class="lead" >
+    Bienvenido a nuestra tienda online especializada en videojuegos. Aquí encontrarás los mejores títulos para consolas y PC,
+    desde clásicos inolvidables hasta los últimos lanzamientos del mercado. 
+  </p>
+</div>
+
+
+
+<div class="container text-center mb-1" style="max-width: 800px;">
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner" >
+      <div class="carousel-item active">
+        <img src="img/controlcito.jpg" class="d-block w-100 " alt="controlcito"  >
+      </div>
+      <div class="carousel-item">
+        <img src="img/marioxd.jpg" class="d-block w-100" alt="marioxd">
+      </div>
+      <div class="carousel-item">
+        <img src="img/kratos.jpg" class="d-block w-100 " alt="kratos" >
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </div>
+
+
+<div class="container mb-5">
+  <h2 class="text-center mb-3">¿Por qué elegirnos? </h2>
+  <ul class="list-unstyled">
+    <li>* Precios competitivos en videojuegos físicos y digitales</li>
+    <li>* Soporte rápido y personalizado</li>
+    <li>* Ofertas semanales y juegos en preventa</li>
+    <li>* Envíos a todo el país</li>
+  </ul>
+  <p class="text-center">Explora nuestro catálogo y encuentra tu próxima aventura gamer.</p>
+</div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
